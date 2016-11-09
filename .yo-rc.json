@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Azure IoT Suite",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "dbuckingham",
+    "githubRepository": "Azure901-Azure-IoT-Suite"
+  }
+}
