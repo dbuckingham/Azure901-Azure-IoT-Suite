@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/node,bower
+# Created by https://www.gitignore.io/api/node,bower,grunt
 
 ### Node ###
 # Logs
@@ -57,4 +57,12 @@ bower_components
 .bower-cache
 .bower-registry
 .bower-tmp
+
+
+### grunt ###
+# Grunt usually compiles files inside this directory
+dist/
+
+# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
+.tmp/
 
