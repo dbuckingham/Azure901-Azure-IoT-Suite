@@ -100,6 +100,7 @@ module.exports = (grunt) ->
                 commit: true
                 push: true
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
+                connectCommits: false # http://stackoverflow.com/questions/22335692/grunt-warning-uncommitted-changes-in-working-directory/22443286
             pages:
                 options:
                     remote: '<%= pkg.repository.url %>'
